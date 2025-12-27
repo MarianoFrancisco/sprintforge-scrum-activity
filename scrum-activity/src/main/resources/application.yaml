@@ -42,7 +42,7 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       properties:
-        spring.json.trusted.packages: "com.sprintforge.employee.*"
+        spring.json.trusted.packages: "com.sprintforge.scrum.activity.*"
         spring.json.use.type.headers: false
 
     producer:
