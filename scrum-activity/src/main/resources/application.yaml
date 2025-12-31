@@ -60,6 +60,7 @@ spring:
     topics:
       project-created: ${KAFKA_TOPIC_PROJECT_CREATED:project.created}
       sprint-created: ${KAFKA_TOPIC_SPRINT_CREATED:sprint.created}
+      sprint-started: ${KAFKA_TOPIC_SPRINT_STARTED:sprint.started}
 
     groups:
       default-group: ${spring.kafka.consumer.group-id}
