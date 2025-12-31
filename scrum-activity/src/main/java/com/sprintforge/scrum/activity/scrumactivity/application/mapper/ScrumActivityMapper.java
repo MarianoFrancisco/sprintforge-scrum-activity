@@ -2,7 +2,6 @@ package com.sprintforge.scrum.activity.scrumactivity.application.mapper;
 
 import com.sprintforge.scrum.activity.scrumactivity.application.port.in.event.project.ProjectCreatedIntegrationEvent;
 import com.sprintforge.scrum.activity.scrumactivity.application.port.in.event.sprint.SprintCreatedIntegrationEvent;
-import com.sprintforge.scrum.activity.scrumactivity.domain.EntityType;
 import com.sprintforge.scrum.activity.scrumactivity.domain.ScrumActivity;
 import lombok.experimental.UtilityClass;
 
