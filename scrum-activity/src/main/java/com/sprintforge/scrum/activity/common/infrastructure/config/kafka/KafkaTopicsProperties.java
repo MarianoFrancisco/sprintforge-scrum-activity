@@ -7,4 +7,5 @@ import lombok.Setter;
 @Setter
 public class KafkaTopicsProperties {
     private String projectCreated;
+    private String sprintCreated;
 }
