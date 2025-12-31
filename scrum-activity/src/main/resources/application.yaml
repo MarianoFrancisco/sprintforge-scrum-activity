@@ -58,6 +58,7 @@ spring:
       ack-mode: record
 
     topics:
+      project-created: ${KAFKA_TOPIC_PROJECT_CREATED:project.created}
 
     groups:
       default-group: ${spring.kafka.consumer.group-id}
