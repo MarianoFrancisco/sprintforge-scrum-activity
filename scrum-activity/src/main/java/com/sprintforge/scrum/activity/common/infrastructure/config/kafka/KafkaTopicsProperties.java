@@ -10,4 +10,5 @@ public class KafkaTopicsProperties {
     private String sprintCreated;
     private String sprintStarted;
     private String sprintCompleted;
+    private String sprintDeleted;
 }
